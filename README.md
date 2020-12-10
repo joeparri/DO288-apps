@@ -3,4 +3,4 @@ Personalizar un build config añadiendo un scritp s2i al Git de la aplicación (
 
 Usar la imagen rhscl/httpd-24-rhel7, estará en un repositorio privado, por lo que hay que crear el secret e importarla
 
-La podemos importar de quay.io/joeparri/rhscl/httpd-24-rhel7
+La podemos importar de quay.io/joeparri/httpd
