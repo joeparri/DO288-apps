@@ -11,7 +11,7 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 echo "--> init customization"
-cp ./*.html ./
+cp index.html ./
 
 echo $(date %Y-%m-%d) > ./info.html
 echo "This is a message" >> ./info.html
