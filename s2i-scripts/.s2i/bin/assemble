@@ -12,10 +12,7 @@ config_s2i
 
 echo "--> init customization"
 
-cp -Rf /tmp/src/*.html ./
 
-echo $(date +%Y-%m-%d) > ./info.html
-echo "Message s2i" >> ./info.html
 
 echo "--> finish customization"
 
